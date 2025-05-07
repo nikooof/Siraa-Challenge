@@ -20,26 +20,25 @@ If you want to install node:
  nvm install 23.11.0
 ```
 
-2. To use node v23.11.0 with nvm:
+2. To use node v23.11.0 with nvm (run this within the frontend directory):
 
 ```bash
  nvm use
 ```
 
-3. To
-   install all packages:
+3. To install all packages (run this within the frontend directory):
 
 ```bash
  npm install
 ```
 
-4. Build the project:
+4. Build the project (run this within the frontend directory):
 
 ```bash
  npm run build
 ```
 
-5. To start the prod. server:
+5. To start the prod. server (run this within the frontend directory):
 
 ```bash
  npm run start

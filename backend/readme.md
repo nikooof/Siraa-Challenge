@@ -12,25 +12,25 @@ brew install uv
 uv python install 3.13
 ````
 
-4. Create a virtual environment:
+4. Create a virtual environment (run this within the backend directory):
 
 ```bash
 uv venv
 ```
 
-5. Activate the virtual environment:
+5. Activate the virtual environment (run this within the backend directory):
 
 ```bash
 source .venv/bin/activate
 ```
 
-6. To install all packages:
+6. To install all packages (run this within the backend directory):
 
 ```bash
 uv sync
 ```
 
-7. To start the prod. server:
+7. To start the prod. server (run this within the backend directory):
 
 ```bash
 uvicorn src.main:app --host 0.0.0.0 --port 8000
