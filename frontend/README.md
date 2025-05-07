@@ -2,12 +2,47 @@
 
 If you have nvm installed, follow all the steps. If you don't have nvm installed, but have node installed, follow step 3 onwards.
 
-If you want to install nvm: `bash brew install nvm`
-If you want to install node: `bash brew install node`
+If you want to install nvm:
 
-1. To install node v23.11.0: `bash nvm install 23.11.0`
-2. To use node v23.11.0 with nvm: `bash nvm use`
-3. To install all packages: `bash npm install`
-4. Build the project: `bash npm run build`
-5. To start the prod. server: `bash npm run start`
+```bash
+ brew install nvm
+```
+
+If you want to install node:
+
+```bash
+ brew install node
+```
+
+1. To install node v23.11.0:
+
+```bash
+ nvm install 23.11.0
+```
+
+2. To use node v23.11.0 with nvm:
+
+```bash
+ nvm use
+```
+
+3. To
+   install all packages:
+
+```bash
+ npm install
+```
+
+4. Build the project:
+
+```bash
+ npm run build
+```
+
+5. To start the prod. server:
+
+```bash
+ npm run start
+```
+
 6. Once the setup is complete, access the website via: [Here](http://localhost:3000/upload)
