@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules
+.next
+
+# Git
+.git
+.gitignore
+
+# Docker artifacts
+Dockerfile*
+docker-compose.yml
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/

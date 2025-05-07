@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Python
+__pycache__
+*.py[cod]
+venv/
+
+# Git
+.git
+.gitignore
+
+# Docker artifacts
+Dockerfile*
+docker-compose.yml
+
+.vscode/
+
+# Build outputs
+dist/
+build/
+
+cached_data/
+pdf_uploads/
+training_data/
+user_submissions/
