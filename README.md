@@ -26,7 +26,7 @@ brew install --cask docker
 ```
 
 3. Run the daemon.
-4. To run the services:
+4. To run the services (make sure you're running this command from the parent directory (same level as docker-compose.yml)):
 
 ```bash
 docker compose up --build

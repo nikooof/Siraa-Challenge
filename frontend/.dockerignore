@@ -23,8 +23,3 @@ docker-compose.yml
 # Build outputs
 dist/
 build/
-
-# Environment
-.env.local
-.env.* 
-
