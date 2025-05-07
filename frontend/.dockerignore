@@ -5,6 +5,8 @@ Thumbs.db
 # Node
 node_modules
 .next
+npm-debug.log*
+out/
 
 # Git
 .git
@@ -21,3 +23,8 @@ docker-compose.yml
 # Build outputs
 dist/
 build/
+
+# Environment
+.env.local
+.env.* 
+
