@@ -12,6 +12,12 @@
 
 If you don't want to setup using Docker, the frontend and backend of the app can be hosted manually. Instructions are included in their READMEs.
 
+0. Clone the repository:
+
+```bash
+git clone https://github.com/nikooof/Siraa-Challenge.git
+```
+
 1. Make sure to download the `.env` file from the email and put into the backend directory.
 2. If you don't have docker desktop installed, install it using:
 
